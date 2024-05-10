@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": ["200"],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "/home/micha/vscode/projects/Rf433MhzControl/433control/433Utils/RPi_utils",
+      "program": "/home/micha/vscode/projects/Rf433MhzControl/433control/433Utils/RPi_utils/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
